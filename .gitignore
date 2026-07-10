@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Build / packed output
+dist/
+build/
+
+# Secrets — never commit
+.env
+.env.local
+*.pem
+
+# Packed archives
+*.zip
+*.xpi
+
+# OS
+.DS_Store
+
+# Python bytecode
+__pycache__/
+*.pyc

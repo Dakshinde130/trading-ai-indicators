@@ -1,0 +1,6 @@
+# Dependencies for the technical-analysis indicator modules (indicators/).
+# This project ships indicator math only — no data fetching, no trade signals.
+
+pandas>=2.0.0
+numpy>=1.24.0
+ta>=0.11.0

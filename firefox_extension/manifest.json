@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Trading AI Panel",
+  "version": "3.0.0",
+  "description": "Educational technical-analysis indicator reference (EMA/ADX trend, support/resistance, order blocks). Non-functional: contains no live data fetching and no trade-signal generation.",
+
+  "icons": {
+    "48":  "icons/icon-48.png",
+    "96":  "icons/icon-96.png",
+    "128": "icons/icon-128.png"
+  },
+
+  "background": {
+    "scripts": [
+      "lib_indicators.js",
+      "lib_orderblocks.js",
+      "lib_levels.js"
+    ]
+  },
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "trading-ai-panel@local",
+      "strict_min_version": "109.0"
+    }
+  }
+}
