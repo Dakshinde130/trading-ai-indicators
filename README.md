@@ -49,3 +49,7 @@ downloads data for you.
 
 Educational reference only. Not financial advice, not a signal service, and
 not intended for live trading. No warranty of any kind.
+
+## License
+
+Released under the [MIT License](LICENSE).
